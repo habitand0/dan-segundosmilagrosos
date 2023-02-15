@@ -21,8 +21,8 @@
   </head>
   <body style="text-align:center">
 	<!-- Headline -->
-	<div style="margin-top: 100px;font-size:13px;font-family: 'Montserrat', Sans-serif;font-weight: 500;">
-		<p>Descubra a <strong><span style="color: #ff0000;">regra dos 4 segundos</span></strong> e aprenda como <span style="font-weight: 400;">pessoas de destaque usam isso para<span style="text-decoration: underline;"> dominar qualquer ambiente</span> e conquistar respeito, atenção e muito mais…</span></p>
+	<div style="margin-top: 70px;font-size:13px;font-family: 'Montserrat', Sans-serif;font-weight: 500;">
+		<p class="resizemobile resizedesktop">Descubra a <strong><span style="color: #ff0000;">regra dos 4 segundos</span></strong> e aprenda como <span style="font-weight: 400;">pessoas de destaque usam isso para<span style="text-decoration: underline;"> dominar qualquer ambiente</span> e conquistar respeito, atenção e muito mais…</span></p>
 	</div>
     <header>
       <div class="container">
@@ -37,7 +37,7 @@
 		<section class="lagbut">
 			<!-- Botão -->
 			<div class="container mt-4">
-				<a href="https://pepper.com.br/checkout/index.html?p=15388&o=7951" class="a-btn">
+				<a href="https://pepper.com.br/checkout/index.html?p=16854&o=10099" class="a-btn">
 					<span class="span-btn">EU QUERO O PLANO ALFA EM 7 DIAS</span>
 				</a>
 			</div>
@@ -122,6 +122,16 @@
 		</footer>
     </header>
 			<style>
+			/* Extra small devices (phones, 900px and down) */
+			@media only screen and (max-width: 900px) {
+			  .resizemobile {font-size:13px;}
+			}
+			/* Large devices (laptops/desktops, 900px and up) */
+			@media only screen and (min-width: 900px) {
+			  .resizedesktop {font-size:25px;margin: 10px 150px 10px 150px;}
+			} 
+			</style>
+			<style>
 		  .blocobranco {
 			background-color: white;
 			padding: 25px 15px 25px 15px;
@@ -172,8 +182,8 @@
 		</style>
 		<style>.lagbut{display:none;}</style> 
 		<script type="text/javascript">
-		var tmin = 0;
-		var tseg = 5;
+		var tmin = 13;
+		var tseg = 9;
 		  
 		var tpitch = (tmin * 60000) + (tseg * 1000);
 		setTimeout('show()', tpitch);
